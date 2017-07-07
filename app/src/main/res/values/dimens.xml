@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="padding">10dip</dimen>
+    <dimen name="padding_xmedium">11dip</dimen>
+    <dimen name="padding_small_medium">12dip</dimen>
+    <dimen name="padding_medium">14dip</dimen>
+    <dimen name="padding_large">15dip</dimen>
+    <dimen name="padding_medium_large">16dip</dimen>
+    <dimen name="padding_mm_large">18dip</dimen>
+    <dimen name="padding_xlarge">22dip</dimen>
+    <dimen name="padding_xxlarge">25dip</dimen>
+    <dimen name="padding_xx_xlarge">26dip</dimen>
+    <dimen name="padding_xxxlarge">28dip</dimen>
+    <dimen name="padding_small">5dip</dimen>
+    <dimen name="padding_xsmall">4dip</dimen>
+
+    <dimen name="reverse_margin_xsmall">-5dip</dimen>
+    <dimen name="reverse_margin_small">-8dip</dimen>
+    <dimen name="reverse_margin">-10dip</dimen>
+    <dimen name="reverse_margin_large">-20dip</dimen>
+    <dimen name="margin">10dip</dimen>
+    <dimen name="margin_xsmall">3dip</dimen>
+    <dimen name="margin_small">5dip</dimen>
+    <dimen name="margin_large">15dip</dimen>
+    <dimen name="margin_medium">13dip</dimen>
+    <dimen name="margin_xlarge">20dip</dimen>
+    <dimen name="margin_xxlarge">22dip</dimen>
+    <dimen name="margin_xx_medium_large">24dip</dimen>
+    <dimen name="margin_xxxlarge">29dip</dimen>
+    <dimen name="margin_xxxxlarge">32dip</dimen>
+    <dimen name="margin_xxxxxlarge">35dip</dimen>
+    <dimen name="margin_xxxxxxlarge">38dip</dimen>
+
+    <dimen name="font_xxxsmall">6dip</dimen>
+    <dimen name="font_xxsmall">8dip</dimen>
+    <dimen name="font_xsmall">10dip</dimen>
+    <dimen name="font_small_x">11dip</dimen>
+    <dimen name="font_small">13dip</dimen>
+    <dimen name="font_small_xmedium">14dip</dimen>
+    <dimen name="font_medium">16dip</dimen>
+    <dimen name="font_xmedium">17dip</dimen>
+    <dimen name="font_small_medium">18dip</dimen>
+    <dimen name="font_large">20dip</dimen>
+    <dimen name="font_xlarge">22dip</dimen>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/margin"
+    android:layout_marginBottom="@dimen/margin"
+    android:layout_marginLeft="@dimen/margin"
+    android:layout_marginRight="@dimen/margin">
+
+    <com.an.videoplayer.views.CustomEditText
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginLeft="@dimen/margin_xlarge"
+        android:layout_marginRight="@dimen/margin_xlarge"
+        android:id="@+id/playlist_name"
+        android:paddingLeft="@dimen/padding_small"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        android:textSize="@dimen/font_medium"
+        android:textColor="@android:color/black"
+        android:hint="@string/create_playlist_edittext_hint"
+        android:textColorHint="#5d5a6d"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font="gt_medium"/>
+
+    <View
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin_xxlarge"
+        android:layout_marginRight="@dimen/margin_xxlarge"
+        android:background="#dedbee"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+</LinearLayout>

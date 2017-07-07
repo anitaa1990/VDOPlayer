@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/margin"
+    android:layout_marginBottom="@dimen/margin"
+    android:layout_marginLeft="@dimen/margin"
+    android:layout_marginRight="@dimen/margin"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <com.an.videoplayer.views.CustomTextView
+        android:drawablePadding="@dimen/margin"
+        android:drawableLeft="@drawable/ic_add"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin_xlarge"
+        android:layout_marginRight="@dimen/margin_xlarge"
+        android:id="@+id/playlist_name"
+        android:paddingLeft="@dimen/padding_small"
+        android:paddingTop="@dimen/padding"
+        android:paddingBottom="@dimen/padding"
+        android:textSize="@dimen/font_xmedium"
+        android:textColor="#5d5a6d"
+        android:text="@string/select_playlist_new"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font="gt_medium"/>
+
+    <View
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin_xxlarge"
+        android:layout_marginRight="@dimen/margin_xxlarge"
+        android:background="#dedbee"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <ListView
+        android:divider="#dedbee"
+        android:dividerHeight="0dp"
+        android:cacheColorHint="@null"
+        android:scrollbars="none"
+        android:layout_marginLeft="@dimen/margin_xxlarge"
+        android:layout_marginRight="@dimen/margin_xxlarge"
+        android:id="@+id/listview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+
+</LinearLayout>

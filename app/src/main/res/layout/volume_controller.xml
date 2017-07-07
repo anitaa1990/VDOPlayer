@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/volume_view">
+
+    <RelativeLayout
+        android:paddingTop="@dimen/margin"
+        android:paddingLeft="@dimen/margin"
+        android:paddingBottom="@dimen/padding_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC000000"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/volume_btn"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin"
+            android:src="@drawable/ic_volume"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:layout_toRightOf="@+id/volume_btn"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="4dip"
+            android:id="@+id/mediacontroller_volume"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="32dip" />
+
+        <ImageButton
+            android:id="@+id/close_btn"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/margin"
+            android:src="@drawable/ic_cross"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

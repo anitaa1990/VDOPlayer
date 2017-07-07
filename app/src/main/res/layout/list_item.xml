@@ -1,0 +1,43 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_marginLeft="@dimen/margin_small"
+    android:layout_marginRight="@dimen/margin_small"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:id="@+id/selector_view"
+        android:padding="@dimen/padding_small"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/placeholder"
+                android:adjustViewBounds="true"
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        <com.an.videoplayer.views.CustomTextView
+            android:textSize="@dimen/font_xmedium"
+            android:id="@+id/duration_txt"
+            android:textColor="@android:color/white"
+            android:text="2:02"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/padding"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:font="gt_medium"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

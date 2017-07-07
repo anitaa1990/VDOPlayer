@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">VDO Player</string>
+    <string name="permission_storage">We need to access your external storage in order to categorize all the videos in your device. We would never violate your personal information</string>
+
+    <string name="video_list_title">My Videos</string>
+
+    <string name="dialog_option_title">Choose one..</string>
+    <string name="dialog_option_add">Add all to playlist</string>
+    <string name="dialog_option_play">Play all</string>
+    <string name="dialog_option_delete">Delete all from playlist</string>
+
+    <string name="delete_video_success">Videos deleted from playlist</string>
+    <string name="delete_video_title">Delete %s songs</string>
+    <string name="delete_video_message">Are you sure you want to delete?\n(Note: this will not delete the actual video file)</string>
+    <string name="delete_video_pos_btn">Delete</string>
+    <string name="delete_video_neg_btn">Cancel</string>
+
+    <string name="create_playlist_success">Playlist created successfully!</string>
+    <string name="create_playlist_error">Please name your playlist!</string>
+    <string name="create_playlist_title">New Playlist</string>
+    <string name="create_playlist_edittext_hint">Name your playlist</string>
+    <string name="create_playlist_pos_btn">Create Playlist</string>
+    <string name="create_playlist_neg_btn">Cancel</string>
+
+    <string name="select_playlist_success">Added successfully!</string>
+    <string name="select_playlist_title">MY Playlists</string>
+    <string name="select_playlist_new">New Playlist</string>
+
+    <string-array name="option_items">
+        <item>@string/dialog_option_add</item>
+        <item>@string/dialog_option_play</item>
+        <item>@string/dialog_option_delete</item>
+    </string-array>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tool_bar"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    app:titleTextColor="@android:color/white"
+    android:elevation="0dp"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.an.videoplayer.views.CustomTextView
+            android:id="@+id/toolbar_title"
+            android:textSize="@dimen/font_small_medium"
+            android:text="Vdo Player"
+            android:textColor="#fefeff"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:font="gt_medium" />
+
+
+        <com.an.videoplayer.views.CustomTextView
+            android:visibility="invisible"
+            android:layout_marginRight="@dimen/margin_large"
+            android:id="@+id/select_btn"
+            android:textSize="@dimen/font_small_medium"
+            android:text="NEXT"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:font="gt_medium" />
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.Toolbar>
